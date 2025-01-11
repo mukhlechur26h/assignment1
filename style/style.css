@@ -101,10 +101,10 @@ nav>ul>li {
     gap: 20px;
     justify-content: space-between;
 }
-.visions
-{
+
+.visions {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     column-gap: 26px;
 }
 
@@ -120,7 +120,7 @@ nav>ul>li {
     padding: 15px 0px;
 }
 
-.section-description {
+.section-description ,.pillar-description, .vision-description {
     color: rgba(14, 14, 14, 0.7);
     font-family: Fira Sans;
     font-size: 16px;
@@ -180,4 +180,30 @@ nav>ul>li {
 .vision-description {
     margin-top: 32px;
     margin-bottom: 32px;
+}
+
+.space {
+    margin-top: 50px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 24px 48px;
+    background-image:url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: 50px ;
+    background-position-y: 50px;
+}
+
+.space p {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    padding-bottom: 20px;
+}
+.space h3 {
+    padding-bottom: 5px;
 }
