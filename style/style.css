@@ -47,11 +47,7 @@ nav>ul>li {
 }
 
 .btn-login:hover {
-    box-sizing: border-box;
     background: rgb(247, 240, 240);
-    border: 1px solid rgb(0, 106, 80);
-    border-radius: 8px;
-    padding: 15px 30px;
 }
 
 /* Nav End */
@@ -93,7 +89,6 @@ nav>ul>li {
 .section-title {
     margin-top: 50px;
     margin-bottom: 25px;
-
 }
 
 .pillars-content {
@@ -120,7 +115,7 @@ nav>ul>li {
     padding: 15px 0px;
 }
 
-.section-description ,.pillar-description, .vision-description {
+.section-description ,.pillar-description, .vision-description,.news-description {
     color: rgba(14, 14, 14, 0.7);
     font-family: Fira Sans;
     font-size: 16px;
@@ -162,6 +157,8 @@ nav>ul>li {
     font-size: 18px;
     font-weight: 600;
     text-align: left;
+    border: none;
+
 }
 
 .btn-secondary {
@@ -206,4 +203,27 @@ nav>ul>li {
 }
 .space h3 {
     padding-bottom: 5px;
+}
+.news-1 {
+    display: flex;
+    justify-content:space-around;
+    margin-top: 50px;
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 48px;
+}
+.news {
+    margin: 0px 32px;
+}
+.news-image img{
+    border-radius: 24px;
+    margin: 0px 32px;
+}
+.news-title {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.news-date-time {
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
