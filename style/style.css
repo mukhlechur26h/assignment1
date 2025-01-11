@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-style: normal;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    background: rgb(245, 245, 245);
+}
+
+/* Nav Style */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 80px;
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+nav>ul {
+    display: flex;
+
+}
+
+nav>ul>li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.btn-login {
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    padding: 15px 30px;
+}
+.btn-login:hover {
+    box-sizing: border-box;
+    background: rgb(247, 240, 240);
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    padding: 15px 30px;
+}
+
+/* Nav End */
+/* Banner Style */
+.btn-primary {
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    padding: 17px 34px 17px 34px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.banner {
+    display: flex;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    padding: 80px 100px 80px 100px;
+    justify-content: space-between;
+}
+
+.banner-title {
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.banner-greetings {
+    color: rgb(14, 14, 14);
+    font-size: 56px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 20px;
+}
