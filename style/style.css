@@ -9,7 +9,9 @@
 }
 
 body {
-    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1600px;
     height: auto;
     background: rgb(245, 245, 245);
 }
@@ -19,7 +21,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 24px 80px;
+    padding: 24px 0px;
 }
 
 .nav-title {
@@ -43,6 +45,7 @@ nav>ul>li {
     border-radius: 8px;
     padding: 15px 30px;
 }
+
 .btn-login:hover {
     box-sizing: border-box;
     background: rgb(247, 240, 240);
@@ -60,8 +63,6 @@ nav>ul>li {
     color: rgb(255, 255, 255);
     font-size: 18px;
     font-weight: 600;
-    line-height: 22px;
-    letter-spacing: 0%;
     text-align: left;
 }
 
@@ -87,4 +88,96 @@ nav>ul>li {
     font-weight: 700;
     text-align: left;
     margin-bottom: 20px;
+}
+
+.section-title {
+    margin-top: 50px;
+    margin-bottom: 25px;
+
+}
+
+.pillars-content {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.visions
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 26px;
+}
+
+.pillar {
+    padding: 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.pillar-title {
+    padding: 15px 0px;
+}
+
+.section-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+
+.vision-items {
+    box-sizing: border-box;
+}
+
+.vision-warning,
+.vision-secondary,
+.vision-success {
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.vision-secondary {
+    background: rgba(84, 144, 245, 0.2);
+}
+
+.vision-success {
+    background: rgb(198, 228, 214);
+}
+
+.vision-warning {
+    background: rgb(247, 235, 207);
+}
+
+.btn-secondary,
+.btn-success,
+.btn-warning {
+    border-radius: 8px;
+    padding: 17px 34px 17px 34px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.btn-secondary {
+    background: rgb(84, 144, 245);
+
+}
+
+.btn-success {
+    background: rgb(9, 161, 92);
+}
+
+.btn-warning {
+    background: rgb(255, 194, 57);
+}
+
+.vision-description {
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
