@@ -115,7 +115,10 @@ nav>ul>li {
     padding: 15px 0px;
 }
 
-.section-description ,.pillar-description, .vision-description,.news-description {
+.section-description,
+.pillar-description,
+.vision-description,
+.news-description {
     color: rgba(14, 14, 14, 0.7);
     font-family: Fira Sans;
     font-size: 16px;
@@ -186,9 +189,9 @@ nav>ul>li {
     border-radius: 16px;
     background: rgb(255, 255, 255);
     padding: 24px 48px;
-    background-image:url(../assets/quote-bg.png);
+    background-image: url(../assets/quote-bg.png);
     background-repeat: no-repeat;
-    background-position-x: 50px ;
+    background-position-x: 50px;
     background-position-y: 50px;
 }
 
@@ -201,29 +204,87 @@ nav>ul>li {
     text-align: left;
     padding-bottom: 20px;
 }
+
 .space h3 {
     padding-bottom: 5px;
 }
+
 .news-1 {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     margin-top: 50px;
     border-radius: 16px;
     background: rgb(255, 255, 255);
     padding: 48px;
 }
+
 .news {
     margin: 0px 32px;
 }
-.news-image img{
+
+.news-image img {
     border-radius: 24px;
     margin: 0px 32px;
 }
+
 .news-title {
     margin-top: 25px;
     margin-bottom: 25px;
 }
+
 .news-date-time {
     margin-top: 10px;
     margin-bottom: 15px;
+}
+
+.donation {
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.donation-description {
+    text-align: center;
+    padding: 25px 150px;
+
+}
+
+.donets {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 26px;
+
+}
+
+.donets-items {
+    padding: 50px 50px;
+    font-weight: 700px;
+    font-size: 40px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.success {
+    background: rgb(198, 228, 214);
+}
+
+.others-amount {
+    margin-top: 26px;
+    grid-template-rows: auto;
+    width: 100%;
+}
+
+.input-amount {
+    text-align: center;
+    display: block;
+    width: 100%;
+    font-weight: 400;
+    color: #495057;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius:5px;
 }
